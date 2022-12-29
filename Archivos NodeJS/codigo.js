@@ -1,0 +1,1 @@
+alert("Bienvenido, presione enter para continuar")
