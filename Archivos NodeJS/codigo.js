@@ -1,1 +1,1 @@
-alert("Bienvenido, presione enter para continuar")
+alert("Bienvenido, click en aceptar para acceder")
