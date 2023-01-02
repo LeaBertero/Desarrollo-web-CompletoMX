@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,37 +14,38 @@
     <h1>Contenido incrustado parte 5/2</h1>
 
     <style>
-
-        ellipse{
-            fill:url(#degBezier);
+        ellipse {
+            fill: url(#degBezier);
             /* stroke: blueviolet;
             stroke-width: 30px; */
         }
-
     </style>
-    
+
     <svg width="600px" height="300px" style="border: 5px solid black">
-        
+
         <!-- <rect x="30px" y="30px" width="50px" height="50px" fill="transparent" stroke="blue"/>
 
             <circle cx="100px" cy="100px" r="50px" fill="green" stroke="red" stroke-width="10px"/> -->
 
 
-            <defs>
+        <defs>
 
-                <linearGradient id="degBezier" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:blue" stop-opacity="1" />
-                    <stop offset="100%" style="stop-color:yelloW" stop-opacity="1" />
+            <linearGradient id="degBezier" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:blue" stop-opacity="1" />
+                <stop offset="70%" style="stop-color:yelloW" stop-opacity="1" />
+                <stop offset="50%" style="stop-color:rgba(96, 206, 33, 0.575)" stop-opacity="6 0%" />
 
-                </linearGradient>
+            </linearGradient>
 
-            </defs>
+        </defs>
 
-            <ellipse cx="250px" cy="80px" rx="90px" ry="60"/>
+        <ellipse cx="250px" cy="80px" rx="90px" ry="60" />
+
+        <text fill="red" font-size="40px" font-family="Arial" x="130" y="90">Texto añadido</text>
 
 
-            
-        
+
+
     </svg>
 
 
