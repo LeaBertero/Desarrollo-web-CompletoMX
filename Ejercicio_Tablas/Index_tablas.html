@@ -1,48 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio de tablas</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 3px solid orange;
+            font-size: 30px;
+            padding: 5px 7px;
+            
+        }
+
+        th{
+            background-color: brown;
+            font-size: 35px;
+            border: solid orange;
+            color:whitesmoke;
+        }
+
+       
+    </style>
+
 </head>
 
 <body>
 
     <h1>Ejercicios de tablas</h1>
 
-    <style>
-
-        table{
-            border-collapse: collapse;
-        }
-
-        td{
-            border: 2px solid orangered;
-            padding: 10px 10px;
-
-
-
-        }
-    </style>
 
     <table>
-        <tr>
-            <td>Gilbert</td>
-            <td>Rodriguez</td>
-            <td>Santa Marta</td>
-            <td>54867685468</td>
 
-        </tr>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Ciudad</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
 
-        <tr>
-            <td>Gilbert</td>
-            <td>Rodriguez</td>
-            <td>Santa Marta</td>
-            <td>54867685468</td>
+        <tbody>
+            <tr>
+                <td>Leandro</td>
+                <td>Bertero</td>
+                <td>Cordoba</td>
+                <td>543464564</td>
+            </tr>
 
-        </tr>
+            <tr>
+                <td>Leandro</td>
+                <td>Bertero</td>
+                <td>Cordoba</td>
+                <td>353214535</td>
+            </tr>
+
+            <tr>
+                <td>Leandro</td>
+                <td>Bertero</td>
+                <td>Cordoba</td>
+                <td>353214535</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+                <td>text</td>
+            </tr>
+
+        </tfoot>
+
     </table>
-    
+
+    <br>
+
+
+    <table>
+
+
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Ciudad</td>
+            <td>Teléfono</td>
+        </tr>
+
+        <tr>
+            <td>Leandro</td>
+            <td>Bertero</td>
+            <td>Cordoba</td>
+            <td>353214535</td>
+        </tr>
+
+        <tr>
+            <td>Leandro</td>
+            <td>Bertero</td>
+            <td>Cordoba</td>
+            <td>353214535</td>
+        </tr>
+
+    </table>
+
+
+
+
+
 </body>
+
 </html>
