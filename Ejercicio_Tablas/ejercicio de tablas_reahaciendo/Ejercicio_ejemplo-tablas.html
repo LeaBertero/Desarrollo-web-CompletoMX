@@ -30,9 +30,18 @@
     
     <!-- etiqueta para crear tablas -->
     <table>
+        <!-- esta etiqueta define el titulo de una tabla -->
+        <!-- Debe ir antes del (thead, tbody) -->
+        <caption>Usuarios</caption> <!-- <---  Siempre toma la alimeación central-->
 
         <!-- Encabezado de la tabla -->
         <thead>
+
+            <tr>
+                <th>Informacion basica</th>
+                <th>Aspecto fisico</th>
+            </tr>
+
             <!-- filas -->
             <tr>
                 <!-- Columnas -->
@@ -63,53 +72,9 @@
                 <td>Datos Personas</td>
             </tr>
             
-            <!-- Filas -->
-            <tr>
-                <!-- Columnas -->
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-    
-            <tr>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-
-            <!-- Filas -->
-            <tr>
-                <!-- Columnas -->
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-    
-            <tr>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-
-            <!-- Filas -->
-            <tr>
-                <!-- Columnas -->
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-    
-            <tr>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
+            
+            
+            
 
         </tbody>
 
@@ -132,11 +97,28 @@
     <br>
     <table>
 
+        <!-- Grupo de columnas -->
+        
+        <colgroup  span="2" style="background-color: yellow; width: 250px;" ></colgroup>
+
+
+        <!-- otra manera de hacer lo mismo, pintando filas - (con colgroup o col , individualmente  -->
+
+        <!-- <colgroup>
+            <col style="background-color: blue;">
+            <col style="background-color: aquamarine;">
+        </colgroup> -->
+
+        <!-- otra manera de hacer lo mismo, pintando filas - (con colgroup o col , individualmente  -->
+
         <tr>
             <td>Datos Personas</td>
             <td>Datos Personas</td>
             <td>Datos Personas</td>
             <td>Datos Personas</td>
+            <td>Datos Personas</td>
+            <td>Datos Personas</td>
+            
         </tr>
 
         <tr>
@@ -144,6 +126,9 @@
             <td>Datos Personas</td>
             <td>Datos Personas</td>
             <td>Datos Personas</td>
+            <td>Datos Personas</td>
+            <td>Datos Personas</td>
+
         </tr>
 
     </table>
