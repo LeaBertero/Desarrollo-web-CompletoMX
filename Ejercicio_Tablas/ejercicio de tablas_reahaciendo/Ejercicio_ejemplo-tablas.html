@@ -31,13 +31,99 @@
 
 
 <body>
+    <!-- Las tablas nuevas se crean afuera del contexto de las demas etiquetas de tablas -->
 
     <h1>Ejemplo de tablas</h1>
 
+    <table>
+        <thead>
 
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <th>Zapatos nike</th>
+                <th>Zapatos Ultra ligeros</th>
+                <th>100</th>
+
+            </tr>
+
+            <tr>
+
+                <th>Bolso Gucci</th>
+                <th>Bolso con argollas /th>
+                <th>140</th>
+            
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>240</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    
+
+    <br>
+
+    <table>
+        <tbody>
+
+            <tr>
+                <th rowspan="4">Paises americanos</th>
+                <th>Colombia</th>
+            </tr>
+
+            <tr>
+                <th>México</th>
+            </tr>
+
+            <tr>
+                <th>Canadá</th>
+            </tr>
+
+            <tr>
+                <th>Brasil</th>
+            </tr>
+
+            <tr>
+                <th rowspan="4">Paises europeos</th>
+                <th>España</th>
+            </tr>
+
+            <tr>
+                <th>Italia</th>
+            </tr>
+
+            <tr>
+                <th>Francia</th>
+            </tr>
+
+            <tr>
+                <th>Suiza</th>
+            </tr>
+
+        </tbody>
+    </table>
 
 
     <table>
+
+
+        
         <!-- etiqueta para titulos en tablas (siempre va a tomar el centrado de la pagina)-->
         <caption>Usuarios</caption>
 
@@ -45,12 +131,8 @@
         <thead>
 
             <tr>
-                <th>Información básica</th>
-                <th>Aspecto físico</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th style="background-color: blueviolet;" colspan="4">Información básica</th>
+                <th style="background-color:steelblue;" colspan="2">Aspecto físico</th>
             </tr>
 
             <tr>
@@ -58,8 +140,8 @@
                 <th>Apellido</th>
                 <th>Ciudad</th>
                 <th>Teléfono</th>
-                <th>Teléfono</th>
-                <th>Teléfono</th>
+                <th>Altura</th>
+                <th>Peso</th>
                 
             </tr>
 
@@ -73,8 +155,8 @@
                 <td>Bertero</td>
                 <td>Córdoba</td>
                 <td>534543534</td>
-                <td></td>
-                <td></td>
+                <td>53453453535</td>
+                <td>53453453535</td>
             </tr>
 
             <tr>
@@ -82,15 +164,15 @@
                 <td>Díaz</td>
                 <td>Córdoba</td>
                 <td>6544567675</td>
-                <td></td>
-                <td></td>
+                <td>53453453535</td>
+                <td>53453453535</td>
             </tr>
 
         </tbody>
 
 
         <!-- Pié de página -->
-        <tfoot>
+        <!-- <tfoot>
 
             <tr>
 
@@ -98,12 +180,12 @@
                 <td>Hola</td>
                 <td>Hola</td>
                 <td>Hola</td>
-                <td></td>
-                <td></td>
+                <td>53453453535</td>
+                <td>53453453535</td>
 
             </tr>
 
-        </tfoot>
+        </tfoot> -->
 
     </table>
 
