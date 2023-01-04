@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,22 @@
     <title>Ejemplo de tablas</title>
 
     <style>
-
-        table{
+        table {
             border-collapse: collapse;
             font-size: 25px;
         }
-        
-        thead{
+
+        thead {
             background-color: brown;
             color: whitesmoke;
         }
 
-        th,td{
+        th,
+        td {
             border: 3px solid orangered;
             padding: 7px 10px;
-            
-            
+
+
         }
     </style>
 
@@ -30,82 +31,148 @@
 
 
 <body>
-    
-<h1>Ejemplo de tablas</h1>
+
+    <h1>Ejemplo de tablas</h1>
 
 
 
 
-<table>
-    
-    <!-- encabezado -->
-    <thead>
+    <table>
+        <!-- etiqueta para titulos en tablas (siempre va a tomar el centrado de la pagina)-->
+        <caption>Usuarios</caption>
 
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Ciudad</th>
-            <th>Teléfono</th>
-        </tr>
-    
-    </thead>
+        <!-- encabezado -->
+        <thead>
 
-    <!-- Cuerpo -->
-    <tbody>
+            <tr>
+                <th>Información básica</th>
+                <th>Aspecto físico</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Ciudad</th>
+                <th>Teléfono</th>
+                <th>Teléfono</th>
+                <th>Teléfono</th>
+                
+            </tr>
+
+        </thead>
+
+        <!-- Cuerpo -->
+        <tbody>
+
+            <tr>
+                <td>Leandro</td>
+                <td>Bertero</td>
+                <td>Córdoba</td>
+                <td>534543534</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Lina</td>
+                <td>Díaz</td>
+                <td>Córdoba</td>
+                <td>6544567675</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </tbody>
+
+
+        <!-- Pié de página -->
+        <tfoot>
+
+            <tr>
+
+                <td>Hola</td>
+                <td>Hola</td>
+                <td>Hola</td>
+                <td>Hola</td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <table>
+
+        <colgroup span="3" style="background-color: aquamarine; width: 300px;"></colgroup>
+        
+        <colgroup>
+            <col style="background-color: red;">
+            <col style="background-color: crimson;">
+            <col style="background-color: burlywood;">
+        </colgroup>
+
+
 
         <tr>
             <td>Leandro</td>
             <td>Bertero</td>
             <td>Córdoba</td>
             <td>534543534</td>
+            <td>534543534</td>
+            <td>534543534</td>
+            <td>534543534</td>
         </tr>
-    
+
         <tr>
             <td>Lina</td>
             <td>Díaz</td>
             <td>Córdoba</td>
             <td>6544567675</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>534543534</td>
         </tr>
-
-    </tbody>
-
-    
-    <!-- Pié de página -->
-    <tfoot>
 
         <tr>
-
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-
-
+            <td>Lina</td>
+            <td>Díaz</td>
+            <td>Córdoba</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>534543534</td>
         </tr>
 
-    </tfoot>
+        <tr>
+            <td>Lina</td>
+            <td>Díaz</td>
+            <td>Córdoba</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>534543534</td>
+        </tr>
 
-</table>
+        <tr>
+            <td>Lina</td>
+            <td>Díaz</td>
+            <td>Córdoba</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>6544567675</td>
+            <td>534543534</td>
+        </tr>
 
-<br>
-
-<table>
-  
-    <tr>
-        <td>Leandro</td>
-        <td>Bertero</td>
-        <td>Córdoba</td>
-        <td>534543534</td>
-    </tr>
-
-    <tr>
-        <td>Lina</td>
-        <td>Díaz</td>
-        <td>Córdoba</td>
-        <td>6544567675</td>
-    </tr>
-
-</table>
+    </table>
 
 </body>
+
 </html>
