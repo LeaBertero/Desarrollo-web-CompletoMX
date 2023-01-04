@@ -4,135 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio de tablas (Rehaciendo)</title>
+    <title>Ejemplo de tablas</title>
 
     <style>
+
         table{
             border-collapse: collapse;
+            font-size: 25px;
         }
-
-        td,td{
-            border: 3px solid gray;
-            padding: 5px 7px;
-        }
-
+        
         thead{
             background-color: brown;
             color: whitesmoke;
-            font-size: 20px;
+        }
+
+        th,td{
+            border: 3px solid orangered;
+            padding: 7px 10px;
+            
+            
         }
     </style>
+
 </head>
 
+
 <body>
-
-    <h1> (Ejercicio de tablas) </h1>
     
-    <!-- etiqueta para crear tablas -->
-    <table>
-        <!-- esta etiqueta define el titulo de una tabla -->
-        <!-- Debe ir antes del (thead, tbody) -->
-        <caption>Usuarios</caption> <!-- <---  Siempre toma la alimeación central-->
+<h1>Ejemplo de tablas</h1>
 
-        <!-- Encabezado de la tabla -->
-        <thead>
 
-            <tr>
-                <th>Informacion basica</th>
-                <th>Aspecto fisico</th>
-            </tr>
 
-            <!-- filas -->
-            <tr>
-                <!-- Columnas -->
-                <th>Datos Personas</th>
-                <th>Datos Personas</th>
-                <th>Datos Personas</th>
-                <th>Datos Personas</th>
-            </tr>
-        </thead>
 
-        <!-- ----------------------------------- -->
-
-        <!-- Cuerpo de la tabla -->
-        <tbody>
-            <!-- Filas -->
-            <tr>
-                <!-- Columnas -->
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
+<table>
     
-            <tr>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-                <td>Datos Personas</td>
-            </tr>
-            
-            
-            
-            
-
-        </tbody>
-
-        <!-- ----------------------------------- -->
-
-        
-        <!-- pié de página de la tabla -->
-        <tfoot>
-            <tr>
-                <td>Text - Pie de pagina de la tabla</td>
-                <td>Text - Pie de pagina de la tabla</td>
-                <td>Text - Pie de pagina de la tabla</td>
-                <td>Text - Pie de pagina de la tabla</td>
-            </tr>
-
-        </tfoot>
-
-    </table>
-    
-    <br>
-    <table>
-
-        <!-- Grupo de columnas -->
-        
-        <colgroup  span="2" style="background-color: yellow; width: 250px;" ></colgroup>
-
-
-        <!-- otra manera de hacer lo mismo, pintando filas - (con colgroup o col , individualmente  -->
-
-        <!-- <colgroup>
-            <col style="background-color: blue;">
-            <col style="background-color: aquamarine;">
-        </colgroup> -->
-
-        <!-- otra manera de hacer lo mismo, pintando filas - (con colgroup o col , individualmente  -->
+    <!-- encabezado -->
+    <thead>
 
         <tr>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Ciudad</th>
+            <th>Teléfono</th>
+        </tr>
+    
+    </thead>
+
+    <!-- Cuerpo -->
+    <tbody>
+
+        <tr>
+            <td>Leandro</td>
+            <td>Bertero</td>
+            <td>Córdoba</td>
+            <td>534543534</td>
+        </tr>
+    
+        <tr>
+            <td>Lina</td>
+            <td>Díaz</td>
+            <td>Córdoba</td>
+            <td>6544567675</td>
         </tr>
 
+    </tbody>
+
+    
+    <!-- Pié de página -->
+    <tfoot>
+
         <tr>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
-            <td>Datos Personas</td>
+
+            <td>Hola</td>
+            <td>Hola</td>
+            <td>Hola</td>
+            <td>Hola</td>
+
 
         </tr>
 
-    </table>
-    
+    </tfoot>
+
+</table>
+
+<br>
+
+<table>
+  
+    <tr>
+        <td>Leandro</td>
+        <td>Bertero</td>
+        <td>Córdoba</td>
+        <td>534543534</td>
+    </tr>
+
+    <tr>
+        <td>Lina</td>
+        <td>Díaz</td>
+        <td>Córdoba</td>
+        <td>6544567675</td>
+    </tr>
+
+</table>
 
 </body>
 </html>
