@@ -48,9 +48,13 @@
         <!-- el atributo name, debe tener el mismo nombre por que es el que lo relaciona con los mismos valores (frutas) -->
         <br>
         <br>
-        <input name="frutas" id="Manzana" value="Manzana" type="checkbox"><label for="Manzana">Manzana</label><br>
-        <input name="frutas" id="Pera" value="Pera" type="checkbox"><label for="Pera">Pera</label><br>
-        <input name="frutas" id="Durazno" value="Durazno" type="checkbox"><label for="Durazno">Durazno</label><br>
+        <div>Chexbox (Cajas de selección)</div><br>
+        <div>
+            <input name="frutas" id="Manzana" value="Manzana" type="checkbox"><label for="Manzana">Manzana</label><br>
+            <input name="frutas" id="Pera" value="Pera" type="checkbox"><label for="Pera">Pera</label><br>
+            <input name="frutas" id="Durazno" value="Durazno" type="checkbox"><label for="Durazno">Durazno</label><br>
+            <input name="frutas" id="Bananas" value="Bananas" type="checkbox"><label for="Bananas">Bananas</label><br>
+        </div>
         <br>
 
         <button type="submit">Enviar</button>
@@ -61,7 +65,24 @@
 
         <h3>seleeccione una de las opciones</h3>
 
-        <label for="opciones">
+        <label for="Mujer">
+            <div>Hombre</div>
+            <input type="radio" name="genero" id="Hombre">
+        </label><br>
+
+        <label for="Mujer">
+            <div>Mujer</div>
+            <input type="radio" name="genero" id="Mujer">
+        </label><br>
+        
+        <label for="Otro">
+            <div>Otro</div>
+            <input type="radio" name="genero" id="Otro">
+        </label><br><br>
+
+        <input type="submit" name="Enviar" id="Enviar"><br><br>
+
+        <!-- <label for="opciones">
             <div>Hombre</div><br>
             <input type="radio" name="opciones" id=""><br>
         </label><br>
@@ -77,7 +98,7 @@
         </label><br>
         
         <br>
-        <br>    
+        <br>     -->
 
         <!-- entreada de tipo color -->
         
