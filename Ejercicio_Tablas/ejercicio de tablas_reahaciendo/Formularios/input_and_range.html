@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,32 +11,37 @@
 <body>
 
     <!-- formulario -->
-    
+
     <form action="" method="get">
 
         <h1>Input and Range</h1>
 
-    <input type="range" step="30" name="Rango" id="" min="0" max="250" style="width: 300px;">
-    <br>
+        <div style="font-size: 40px ;">DataList</div>
 
-    <!-- formularios typo range -->
-    <input type="range" name="volumen" id="" list="ListVolumen">
+        <input type="range" step="30" name="Rango" id="" min="0" max="250" style="width: 300px;">
+        <br>
 
-    <datalist>
-        <option value="10"></option>
-        <option value="20"></option>
-        <option value="30"></option>
-        <option value="40"></option>
-        <option value="50"></option>
-        <option value="60"></option>
-        <option value="70"></option>
-        <option value="80"></option>
-        <option value="90"></option>
-        <option value="100"></option>
-    </datalist><br><br>
+        <!-- formularios typo range -->
+        <!-- En el impút list, colocar un nombre para identificar y en el datalist
+        poner el id del atributo list del input -->
+        <input type="range" name="volumen" id="" list="listaVolumen">
 
-    <button type="submit">Enviar</button>
+        <datalist id="listaVolumen">
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+        </datalist><br><br>
+
+        <button type="submit">Enviar</button>
 
     </form>
 </body>
+
 </html>
