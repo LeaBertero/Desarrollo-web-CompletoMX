@@ -10,61 +10,70 @@
 
 <body>
 
-    <form action="" method="get">
+    <form action="" method="get" enctype="">
 
         <input name="oculto" type="hidden" value="codeseguridad">
 
         <br>
         <br>
-
+        <div>Input de tipo texto</div>
         <input name="Nombre" type="text">
         <br>
         <br>
+        <div>Input de tipo texto</div>
         <input name="Apellido" type="text">
         <br>
         <br>
+        <div>Input de tipo dato (esto es un calendario)</div>
         <input type="date">
         <br>
+        <br>
+        <div>input de tipo numero (para insertar solamente numeros,<br>
+        <br>no deja ingresar otro tipo de dato que no sea de tipo numero)</div>
         <br>
         <input type="number">
         <br>
         <br>
+        <div>boton de tipo envio</div>
         <input type="submit">
         <br>
         <br>
+        <div>input de tipo telefono</div>
         <input type="phone" name="Telefono" id="">
         <br>
         <br>
+        <div>input de tipo eniviar(botón)</div>
         <input type="submit" name="Enviar" id="">
 
         <!-- el atributo name, debe tener el mismo nombre por que es el que lo relaciona con los mismos valores (frutas) -->
         <br>
         <br>
-        <input name="frutas" value="Manzana" type="checkbox">Manzana<br>
-        <input name="frutas" value="Pera" type="checkbox">Pera<br>
-        <input name="frutas" value="Durazno" type="checkbox">Durazno<br>
+        <input name="frutas" id="Manzana" value="Manzana" type="checkbox"><label for="Manzana">Manzana</label><br>
+        <input name="frutas" id="Pera" value="Pera" type="checkbox"><label for="Pera">Pera</label><br>
+        <input name="frutas" id="Durazno" value="Durazno" type="checkbox"><label for="Durazno">Durazno</label><br>
         <br>
 
         <button type="submit">Enviar</button>
 
+        <!-- metodo get y post (el metodo post se utiliza para formularios de inicio de sesion) -->
 
         <!-- estructuras de selección -->
 
         <h3>seleeccione una de las opciones</h3>
 
         <label for="opciones">
-            <div>opc - 1</div>
-            <input type="radio" name="opciones" id="">
+            <div>Hombre</div><br>
+            <input type="radio" name="opciones" id=""><br>
         </label><br>
         
-        <label for="opciones">
-            <div>opc - 2</div>
-            <input type="radio" name="opciones" id="">
+        <label for="opciones"><br>
+            <div>Mujer</div>
+            <input type="radio" name="opciones" id=""><br>
         </label><br>
         
-        <label for="opciones">
-            <div>opc - 3</div>
-            <input type="radio" name="opciones" id="">
+        <label for="opciones"><br>
+            <div>Otro</div>
+            <input type="radio" name="opciones" id=""><br>
         </label><br>
         
         <br>
