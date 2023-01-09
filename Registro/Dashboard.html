@@ -5,12 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>DashBoard</title>
+    <title>Registro</title>
+
+    <style>
+        .Reg{
+            font-weight: bolder;
+            text-align: center;
+            background-color: black;
+            /* color: rgb(145, 145, 16); */
+            text-shadow: 2px 2px 2px whitesmoke;
+            font-size: 50px;
+            width: 500px;
+            margin-left: 500px;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .btn_enviar{
+            margin-top: 20px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px green;
+            /* background-color: rgb(rgb(167, 63, 63), rgb(54, 233, 54), rgb(42, 196, 196)); */
+            font-weight: bolder;
+            font-size: 15px;
+            border: 50;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .inp{
+            padding: 15px;
+            box-shadow: 2px 2px 2px blue;
+            font-weight: bolder;
+            font-size: 15px;
+            /* border: 1px solid; */
+        }
+
+        .click_reg{
+            font-size: 40px;
+            margin-left: 150px;
+            text-shadow: 2px 2px 2px green;
+            background-color: black;
+            color: whitesmoke;
+            
+        }
+    </style>
 
 </head>
 
 <body>
 
+    <h1 class="Reg">Registro (Ejercicios)</h1>
+    
+    <a class="click_reg" href="/Registro/Registro.html">Registrate</a>
+    <br>
+    <br>
+
+    <form action="/Registro/Dashboard.html">
+
+        <input class="inp" type="text" name="user" id="" placeholder="Nombre"><br>
+        <input class="inp" type="text" name="pass" id="" placeholder="Apellido"><br>
+        <input class="inp" type="number" name="pass" id="" placeholder="Edad"><br>
+        <input class="inp" type="email" name="pass" id="" placeholder="E-mail"><br>
+        <input class="inp" type="email" name="pass" id="" placeholder="Confirmar E-mail"><br>
+        <input class="inp" type="text" name="pass" id="" placeholder="Nombre de usuario"><br>
+        <input class="inp" type="password" name="pass" id="" placeholder="Contraseña">
+        <br>
+        <button class="btn_enviar" type="submit">Iniciar sesión</button>
+        
+    </form>
     
     
 </body>

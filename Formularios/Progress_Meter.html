@@ -5,14 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Progress & Meter</title>
+
+    <style>
+        .tituloprincipal{
+            text-align: center; 
+            font-size: 50px; 
+            text-shadow: 2px 2px 2px goldenrod; 
+            background-color: black; 
+            padding: 15px; margin-top: 50px;
+        }
+
+        .disco{
+            font-weight: bolder; 
+            font-size: 40px; 
+            background-color: crimson; 
+            color: yellow;
+        }
+
+        .bt_confirmar{
+            font-weight: bolder; 
+            font-size: 30px; 
+            box-shadow: 5px 5px 5px red;
+        }
+
+
+    </style>
+
 </head>
 
 
 <body>
 
-    <h1 style="text-align: center; font-size: 50px; text-shadow: 2px 2px 2px goldenrod; background-color: black; 
-    padding: 15px; margin-top: 50px;">Progress & Meter</h1>
+    <h1 class="tituloprincipal">Progress & Meter</h1>
 
     <form action="" method="get">
 
@@ -20,17 +46,17 @@
         <br>
         <br>
 
-        <label style="font-weight: bolder; font-size: 40px; background-color: crimson; color: yellow;" for="">
+        <label class="disco" for="">
             Disco local C:
         </label><br><br>
+
         <meter value="70" min="1" max="100"></meter>
         <br>
         <br>
 
-
         <br>
-        <button style="font-weight: bolder; font-size: 30px; box-shadow: 5px 5px 5px red;"
-            type="submit">Confirmar</button>
+        
+        <button class="bt_confirmar" type="submit">Confirmar</button>
 
     </form>
 
