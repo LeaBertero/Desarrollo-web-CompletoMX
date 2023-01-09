@@ -8,6 +8,7 @@
     <title>Ejemplo de tablas</title>
 
     <style>
+        /* tablas iniciales */
         table {
             border-collapse: collapse;
             font-size: 25px;
@@ -18,13 +19,36 @@
             color: whitesmoke;
         }
 
-        th,
-        td {
+        th,td {
             border: 3px solid orangered;
             padding: 7px 10px;
 
 
         }
+
+        /* Tablas de informacion basica */
+        .informacionBasica{
+            background-color: blueviolet;
+        }
+        
+        .aspectoFisico{
+            background-color:steelblue;
+        }
+
+        /* Grupo de columnas */
+        .col1{
+            background-color: red;
+        }
+
+        .col2{
+            background-color: crimson;
+        }
+
+        .col3{
+            background-color: burlywood;
+        }
+
+        
     </style>
 
 </head>
@@ -131,8 +155,8 @@
         <thead>
 
             <tr>
-                <th style="background-color: blueviolet;" colspan="4">Información básica</th>
-                <th style="background-color:steelblue;" colspan="2">Aspecto físico</th>
+                <th class="informacionBasica" colspan="4">Información básica</th>
+                <th class="aspectoFisico" colspan="2">Aspecto físico</th>
             </tr>
 
             <tr>
@@ -196,9 +220,9 @@
         <colgroup span="3" style="background-color: aquamarine; width: 300px;"></colgroup>
         
         <colgroup>
-            <col style="background-color: red;">
-            <col style="background-color: crimson;">
-            <col style="background-color: burlywood;">
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
         </colgroup>
 
 
