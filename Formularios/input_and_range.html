@@ -20,6 +20,55 @@
 
         }
         
+        .tituloprincipal{
+            font-size: 60px; 
+            background-color: tomato; 
+            color: wheat; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 40px;
+        }
+
+        .nombre{
+            font-weight: bolder; 
+            font-size: 25px; 
+            text-shadow: 2px 2px 2px orangered;
+        }
+
+        .apellido{
+            font-weight: bolder; 
+            font-size: 25px; 
+            text-shadow: 2px 2px 2px orangered;
+        }
+
+        .experiencia{
+            font-size: 40px; 
+            font-weight: bolder; 
+            text-shadow: 2px 2px 2px rgb(16, 165, 235);
+        }
+
+        .selecc_lenguaje{
+            font-size: 50px; 
+            font-weight: bolder; 
+            text-shadow: 2px 2px 2px yellowgreen;
+        }
+
+        .bt_violet{
+            box-shadow: 5px 5px 5px blueviolet;
+        }
+
+        .titulo_range{
+            text-shadow: 5px 5px 5px rgb(253, 74, 223);
+        }
+
+        .datalist{
+            font-size: 40px; 
+            text-shadow: 2px 2px 2px green;
+        }
+
+        .bt_enviar{
+            box-shadow: 5px 5px 5px red;
+        }
 
     </style>
 
@@ -29,25 +78,22 @@
 
 <body>
 
-    <div style="font-size: 60px; background-color: tomato; color: wheat; text-align: center; padding: 20px; margin-top: 40px;"">Seleccionador de opciones</div><br>
+    <h1 class="tituloprincipal">Seleccionador de opciones</h1><br>
 
     
     <form action="" method=" get">
 
         <fieldset >Datos personales</fieldset>
-        <label style="font-weight: bolder; font-size: 25px; text-shadow: 2px 2px 2px orangered;" for="Nombre">Nombre</label>
+        <label class="nombre" for="Nombre">Nombre</label>
         <input type="text" id="Nombre"><br>
-        <label style="font-weight: bolder; font-size: 25px; text-shadow: 2px 2px 2px orangered;" for="Apellido">Apellido</label>
+        <label class="apellido" for="Apellido">Apellido</label>
         <input type="text" id="Apellido"><br>
 
         <fieldset>
 
-            <legend style="font-size: 40px; font-weight: bolder; text-shadow: 2px 2px 2px rgb(16, 165, 235); ">Experiencia</legend>
+            <legend class="experiencia">Experiencia</legend>
 
-            <label for="lenguaje"
-                style="font-size: 50px; font-weight: bolder; text-shadow: 2px 2px 2px yellowgreen;">Selecciona un
-                lenguaje
-            </label><br><br>
+            <label class="selecc_lenguaje" for="lenguaje">Selecciona un lenguaje</label><br><br>
             
             <select name="lenguaje" id="lenguaje">
 
@@ -91,7 +137,7 @@
 
             </datalist>
 
-            <button style="box-shadow: 5px 5px 5px blueviolet;" type="submit">Confirmar</button>
+            <button class="bt_violet" type="submit">Confirmar</button>
 
         </form>
 
@@ -99,9 +145,9 @@
 
         <form action="" method="get">
 
-            <h1 style="text-shadow: 5px 5px 5px rgb(253, 74, 223);">Input and Range</h1>
+            <h1 class="titulo_range">Input and Range</h1>
 
-            <div style="font-size: 40px; text-shadow: 2px 2px 2px green;">DataList</div>
+            <div class="datalist">DataList</div>
 
             <input type="range" step="30" name="Rango" id="" min="0" max="250" style="width: 300px;">
             <br>
@@ -124,7 +170,7 @@
                 <option value="100"></option>
             </datalist><br><br>
 
-            <button style="box-shadow: 5px 5px 5px red;" type="submit">Enviar</button>
+            <button class="bt_enviar" type="submit">Enviar</button>
 
         </form>
 </body>
