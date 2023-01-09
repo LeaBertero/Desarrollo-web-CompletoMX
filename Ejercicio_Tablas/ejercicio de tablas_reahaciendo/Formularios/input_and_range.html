@@ -10,38 +10,103 @@
 
 <body>
 
-    <!-- formulario -->
+    <div style="font-size: 60px; background-color: tomato; color: wheat; text-align: center; padding: 20px; margin-top: 40px;"">Seleccionador de opciones</div><br>
 
-    <form action="" method="get">
+    
+    <form action="" method=" get">
 
-        <h1>Input and Range</h1>
+        <fieldset style="font-weight: bolder; font-size: 30px; text-shadow: 2px 2px 2px gray;">Datos personales</fieldset>
+        <label style="font-weight: bolder; font-size: 25px; text-shadow: 2px 2px 2px orangered;" for="Nombre">Nombre</label>
+        <input type="text" id="Nombre"><br>
+        <label style="font-weight: bolder; font-size: 25px; text-shadow: 2px 2px 2px orangered;" for="Apellido">Apellido</label>
+        <input type="text" id="Apellido"><br>
 
-        <div style="font-size: 40px ;">DataList</div>
+        <fieldset>
 
-        <input type="range" step="30" name="Rango" id="" min="0" max="250" style="width: 300px;">
+            <legend style="font-size: 40px; font-weight: bolder; text-shadow: 2px 2px 2px rgb(16, 165, 235); ">Experiencia</legend>
+
+            <label for="lenguaje"
+                style="font-size: 50px; font-weight: bolder; text-shadow: 2px 2px 2px yellowgreen;">Selecciona un
+                lenguaje
+            </label><br><br>
+            
+            <select name="lenguaje" id="lenguaje">
+
+                <!-- con el atributo "disabled" es decir, (Desactivado), se desactivan los controles de multiple opción" -->
+
+                <option value="Html">Html</option>
+                <option value="css">css</option>
+                <option value="javascript">javascript</option>
+                <option value="php">php</option> <!--Tambien se pueden desactivar opciones puntuales-->
+                <option disabled value="mysql">mysql</option>
+                <option value="nodejs" selected>nodejs</option>
+                <option value="phyton">phyton</option>
+
+                <br>
+
+
+            </select>
+
+        </fieldset>
+
+        <br>
+        <button style="box-shadow: 5px 5px 5px blue;" type="submit">CONFIRMAR</button><br>
+
+
+        <br>
         <br>
 
-        <!-- formularios typo range -->
-        <!-- En el impút list, colocar un nombre para identificar y en el datalist
+        <form action="" method=" get">
+
+            <input name="navegador" type="text" list="navegadores">
+
+            <datalist id="navegadores">
+
+                <option value="Edge">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Zafari">
+                <option value="Firefox">
+                <option value="Internet explorer">
+
+            </datalist>
+
+            <button style="box-shadow: 5px 5px 5px blueviolet;" type="submit">Confirmar</button>
+
+        </form>
+
+        <!-- formulario -->
+
+        <form action="" method="get">
+
+            <h1 style="text-shadow: 5px 5px 5px rgb(253, 74, 223);">Input and Range</h1>
+
+            <div style="font-size: 40px; text-shadow: 2px 2px 2px green;">DataList</div>
+
+            <input type="range" step="30" name="Rango" id="" min="0" max="250" style="width: 300px;">
+            <br>
+
+            <!-- formularios typo range -->
+            <!-- En el impút list, colocar un nombre para identificar y en el datalist
         poner el id del atributo list del input -->
-        <input type="range" name="volumen" id="" list="listaVolumen">
+            <input type="range" name="volumen" list="listaVolumen">
 
-        <datalist id="listaVolumen">
-            <option value="10"></option>
-            <option value="20"></option>
-            <option value="30"></option>
-            <option value="40"></option>
-            <option value="50"></option>
-            <option value="60"></option>
-            <option value="70"></option>
-            <option value="80"></option>
-            <option value="90"></option>
-            <option value="100"></option>
-        </datalist><br><br>
+            <datalist id="listaVolumen">
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+            </datalist><br><br>
 
-        <button type="submit">Enviar</button>
+            <button style="box-shadow: 5px 5px 5px red;" type="submit">Enviar</button>
 
-    </form>
+        </form>
 </body>
 
 </html>

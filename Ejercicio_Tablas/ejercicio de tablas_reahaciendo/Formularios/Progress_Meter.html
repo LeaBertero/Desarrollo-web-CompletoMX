@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress & Meter</title>
+</head>
+
+
+<body>
+
+    <h1 style="text-align: center; font-size: 50px; text-shadow: 2px 2px 2px goldenrod; background-color: black; 
+    padding: 15px; margin-top: 50px;">Progress & Meter</h1>
+
+    <form action="" method="get">
+
+        <progress value="70" max="100"></progress>
+        <br>
+        <br>
+
+        <label style="font-weight: bolder; font-size: 40px; background-color: crimson; color: yellow;" for="">
+            Disco local C:
+        </label><br><br>
+        <meter value="70" min="1" max="100"></meter>
+        <br>
+        <br>
+
+
+        <br>
+        <button style="font-weight: bolder; font-size: 30px; box-shadow: 5px 5px 5px red;"
+            type="submit">Confirmar</button>
+
+    </form>
+
+    <h1 style="text-align: center; font-size: 50px; text-shadow: 2px 2px 2px goldenrod; background-color: black; 
+    padding: 15px; margin-top: 50px;">Formulario parte 7 - Text tarea</h1>
+
+
+    <form action="" method="get">
+
+        <label for="mensaje">Escribe tu mensaje</label><br>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button style="box-shadow: 5px 5px 5px blue;" type="submit">Enviar</button>
+
+    </form>
+
+    <br>
+
+    <h1 style="text-align: center; font-size: 50px; text-shadow: 2px 2px 2px goldenrod; background-color: black; 
+    padding: 15px; margin-top: 50px;">Formulario parte 8 - Output</h1>
+
+    <br>
+
+    <form oninput="salida.value = parseInt( numero.value ) + parseInt( rango.value )" action="" method="get">
+
+
+        <input id="numero" type="number" value="0"> +
+        <input id="rango" type="range" min="0" max="250"> =
+
+        <output id="salida"></output>
+
+        <br>
+        <br>
+
+
+        <button style="box-shadow: 5px 5px 5px blue;" type="submit">Confirmar</button>
+
+    </form>
+
+    <br>
+    <br>
+
+    <div style="text-align: center; font-size: 50px; text-shadow: 2px 2px 2px goldenrod; background-color: black; 
+    padding: 15px; margin-top: 50px;">Formulario parte 8 - Output(otro ejemplo)</div> <br>
+
+
+    <!-- multipliacion -->
+
+    <form oninput="salida.value = parseInt( numero.value * numero2.value )" action="" method="get">
+
+        <div style="margin-top: 50px; padding: 30px; text-align: center; font-size: 30px; background-color: gray; 
+        text-shadow: 2px 2px 2px green;">Multiplicacion entre numeros enteros</div>
+        <br>
+
+        <div style="text-align: center;">
+            <input id="numero" style="margin-top: 50px;" type="number" value="0">
+            <div style="color: blue; 
+            font-weight: bolder; font-size: 30px; padding-left: 10px;">x</div>
+            <input id="numero2" type="number" value="0"> =
+
+            <br>
+
+            <output id="salida"></output>
+        </div>
+
+        <br>
+        <br>
+
+        <button style="box-shadow: 5px 5px 5px blue; margin-left: 735px; padding-inline: 20px; padding: 20px;"  type="submit">Send</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
