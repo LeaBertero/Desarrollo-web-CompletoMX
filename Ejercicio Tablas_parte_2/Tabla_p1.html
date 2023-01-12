@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas (rehaciendo)</title>
+
+    <style>
+        .titulo_principal {
+            font-weight: bolder;
+            color: whitesmoke;
+            background-color: cadetblue;
+            text-align: center;
+            padding: 30px;
+            font-style: italic;
+            border-radius: 15px;
+            /* margin-bottom: 100px; */
+
+
+        }
+
+        .columnas {
+            border: 2px solid orange;
+            padding: 10px;
+            border-collapse: collapse;
+            /* color: red; */
+        }
+
+
+        .tabla {
+            /* esto es para que la division de las
+            tablas esten todoas juntas, como se ve
+            en la grafica naranja (bordes) */
+            border-collapse: collapse;
+            margin-top: 20px;
+            /* color:red */
+        }
+
+        .tercer_titulo {
+            padding: 10px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: cadetblue;
+            color: whitesmoke;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        .guion {
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: black;
+            color: goldenrod;
+            text-align: center;
+            border-style: double;
+            padding: 20px;
+        }
+
+        .guion_2{
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: black;
+            color: goldenrod;
+            text-align: center;
+            border-style: double;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* datos personales de la primera fila */
+        .datos {
+            border: solid red;
+            background-color: violet;
+            color: whitesmoke;
+        }
+
+        .Ej_tabla{
+            padding: 10px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: cadetblue;
+            color: whitesmoke;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        
+        .Tabla_datos{
+            /* para que no esten separadas
+         las filas de la tabla */
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: whitesmoke;
+            background-color:steelblue;
+
+        }
+
+        .grupo-columnas{
+            /* selecciona la cantidad de columnas */
+            background-color: brown;
+        }
+
+        .ultimas-columnas{
+            border: 3px solid blue;
+            border-collapse: collapse;
+            font-size: 20px;
+            
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <a href="http://"></a>
+
+    <h1 class="titulo_principal">Ejercicio de tablas</h1>
+
+    <table class="ultimas-columnas">
+        <tbody>
+            <tr>
+                <td rowspan="3">Paises americanos</td>
+                <td>Colombia</td>
+                
+                <tr>
+                    <td>México</td>
+                </tr>
+
+                <tr>
+                    <td>Canadá</td>
+                </tr>
+                
+                
+                <td rowspan="3">Paises europeos</td>
+                <td>España</td>
+                
+                <tr>
+                    <td>Italia</td>
+                </tr>
+                
+                <tr>
+                    <td>Francia</td>
+                </tr>
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="tabla">
+
+        <!-- Encabezado -->
+        <thead>
+            <tr>
+                <!-- Columnas, se denominan con (th) 
+                en la etiqueta de thead-->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Ciudad</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+
+        <!-- Cuerpo -->
+        <tbody>
+            <tr class="datos">
+                <!-- Columnas o celdas-->
+                <td class="columnas">Nombre</td>
+                <td class="columnas">Apellido</td>
+                <td class="columnas">Ciudad</td>
+                <td class="columnas">Tel</td>
+
+            </tr>
+            <!-- Filas -->
+            <tr>
+                <!-- Columnas o celdas-->
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Bertero</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">3518758871</td>
+
+            </tr>
+
+            <tr>
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Bertero</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">3518758871</td>
+            </tr>
+        </tbody>
+
+        <!-- Pie de página -->
+        <tfoot class="columnas">
+            <tr>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+
+    <br>
+
+
+    <h3 class="titulo_principal">Fin ejercicio de tabla_ (Parte 1)</h3>
+
+    <div class="guion"><- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ->
+    </div>
+   
+
+    <div class="tercer_titulo">Ejercicio de tablas (descriptivas)_ (parte 2)</div>
+
+    <!-- para crear una tabla -->
+    <!-- Nota: una tabla contiene tantas filas como uno lo desee -->
+    <table class="tabla">
+        <tr class="datos">
+            <!-- Columnas o celdas-->
+            <td class="columnas">Nombre</td>
+            <td class="columnas">Apellido</td>
+            <td class="columnas">Ciudad</td>
+            <td class="columnas">Tel</td>
+        </tr>
+
+        <!-- Filas -->
+        <tr>
+            <!-- Columnas o celdas-->
+            <td class="columnas">Leandro</td>
+            <td class="columnas">Bertero</td>
+            <td class="columnas">Córdoba</td>
+            <td class="columnas">3518758871</td>
+
+        </tr>
+
+        <tr>
+            <td class="columnas">Leandro</td>
+            <td class="columnas">Bertero</td>
+            <td class="columnas">Córdoba</td>
+            <td class="columnas">3518758871</td>
+        </tr>
+
+    </table>
+
+    <div class="tercer_titulo">(Fin de tablas descriptivas_ ( parte 2 ))</div>
+
+    
+    <div class="guion_2"><- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ->
+    </div>
+    
+    <div class="tercer_titulo">Ejercicio de tablas_ (parte 3)</div>
+
+    <table class="tabla">
+
+        <!-- Etiquetas caption, sirve para darle
+        titulos a las tablas, por ejemplo..(siempre toma
+        en centro de la tabla) -->
+        <caption>Usuarios</caption>
+
+        <tr style="border: solid green; color: whitesmoke; background-color: blue;">
+            <!-- Subtutilo de titulos de 
+            cada una de las columnas -->
+            <th colspan="2">Informacion báscica</th>
+            <th colspan="2">Aspecto físico</th>
+            <th colspan="2">Altura</th>
+            <th>Peso</th>
+            
+        </tr>
+
+        <!-- Encabezado -->
+        <thead>
+            <tr>
+                <!-- Columnas, se denominan con (th) 
+                en la etiqueta de thead-->
+                <th">Nombre</th>
+                <th">Apellido</th>
+                <th">Ciudad</th>
+                <th">Teléfono</th>
+                
+            </tr>
+        </thead>
+
+        <!-- Cuerpo -->
+        <tbody>
+            <tr class="datos">
+                <!-- Columnas o celdas-->
+                <td class="columnas">Nombre: Leandro</td>
+                <td class="columnas">Apellido: Bertero</td>
+                <td class="columnas">1.77</td>
+                <td class="columnas">75</td>
+            </tr>
+            <!-- Filas -->
+            <tr>
+                <!-- Columnas o celdas-->
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Bertero</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">3518758871</td>
+
+            </tr>
+
+            <tr>
+                <td class="columnas">Leandro</td>
+                <td class="columnas">Bertero</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">Córdoba</td>
+                <td class="columnas">3518758871</td>
+            </tr>
+        </tbody>
+
+        <!-- Pie de página -->
+        <tfoot class="columnas">
+            <tr>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+                <td class="columnas">Texto</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="Ej_tabla">Nuevo ejemplo de tabla</div>
+
+    <table class="Tabla_datos">
+        <colgroup class="grupo-columnas"></colgroup>
+        <colgroup style="background-color: red;"></colgroup>
+        <tr>
+            <td class="columnas">Leandro </td>
+            <td class="columnas">Bertero</td>
+            <td class="columnas">Cordoba</td>
+            <td class="columnas">Tel</td>
+            <td class="columnas">Tel</td>
+            <td class="columnas">Tel</td>
+            <td class="columnas">Tel</td>
+
+        </tr>
+        <tr>
+            <td class="columnas">Leandro </td>
+            <td class="columnas">Bertero</td>
+            <td class="columnas">Cordoba</td>
+            <td class="columnas">Cordoba</td>
+            <td class="columnas">Cordoba</td>
+            <td class="columnas">Cordoba</td>
+            <td class="columnas">Tel</td>
+
+        </tr>
+    </table>
+
+    <div style="text-align: center; margin-top: 20px; font-weight: bolder; font-size: 40px;
+    background-color: cadetblue; color: whitesmoke;">Nuevo de tabla</div>
+
+
+    <table style="border-collapse: collapse;
+    background-color: blueviolet; color: whitesmoke;">
+
+        <colgroup span="1" style=" width: 200px; background-color:goldenrod">Con la etiqueta spam,
+        mas un color de fondo, se pintan una cantidad de filas
+        requeridas por el programador</colgroup>
+
+        <tr>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+        </tr>
+
+        <tr>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+        </tr>
+        
+        <tr>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+        </tr>
+        
+        <tr style="color: red; background-color: black;">
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+            <td class="ultimas-columnas">filas</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
