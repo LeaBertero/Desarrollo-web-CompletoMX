@@ -9,77 +9,133 @@
 
     <!-- ESTILOS -->
     <style>
+        /* Selector universal */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 p,
+        span,
+        strong,
+        a,
+        button {
+            font-family: sans-serif;
+            /* color: red; */
+
+        }
+
+        /* Header */
         .estilo_cabecera {
             background: url(/Imagenes/bg-header.jpg);
-            height: 500px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        /* estulos de titulos */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-1 {
+            background-color: #f3f9f9;
+        }
+
+        .contenedor {
+            width: 1110px;
+            margin: 0 auto;
         }
     </style>
 
 </head>
 
-<body>
+<body style="margin: 0; padding: 0;">
 
-    <div>
-        <img src="/Imagenes/logo-strict.png" alt="">
+    <div class="bg-1"" >
+        
+        <div class=" contenedor" style="padding: 100px 0;">
+        <img style="display: block;" src="/Imagenes/logo-strict.png" alt="">
     </div>
 
+
     <header class="estilo_cabecera">
-        <div class="info-header">
+        <div class="info-header" style="width: 640px; background-size: cover;">
 
-            <h2>STRICT</h2>
-            <hr>
+            <h2 style="font-size: 115px; color: white;">STRICT</h2>
+            <hr style="border-color: #15a4fa;">
 
-            <span>
+            <p style="color: white;">
                 STRICT is a responsive theme with a clean minimal look
-            </span>
+            </p>
 
-            <button>Call to accion</button>
+            <button type="submit" style="background-color: transparent; border: 1px solid #15a4fa;
+            padding: 15px 35px; border-radius: 5px; color: white;
+            font-size: 30px;">Call to accion</button>
 
         </div>
     </header>
 
-    <section id="simple">
+    <section class="bg-1" id="simple" style="padding: 100px 0; text-align: center; ">
 
-        <h3>Simple & pure design</h3>
-        <p>Designers everywhere gush with admiration upon
-            seeting a web desing and exclaim "it's beautifull it's so clean".
-            there are countless number of web design round-ups dedicated
-            to clean design and it is a term thrown around quite a bit
-            in the web designer comunity. It can be easy to spot a good
-            example of clean design.
-        </p>
-        
+        <div class="contenedor">
+            <h3 style="font-size: 40px; color: #2d3950;">Simple & pure design</h3>
+            <p style="color: #999;">Designers everywhere gush with admiration upon
+                seeting a web desing and exclaim "it's beautifull it's so clean".
+                there are countless number of web design round-ups dedicated
+                to clean design and it is a term thrown around quite a bit
+                in the web designer comunity. It can be easy to spot a good
+                example of clean design.
+            </p>
+        </div>
+
     </section>
-        
+
     <section id="servicios">
-        <div class="caja-servicios">
-            <img src="/Imagenes/icon-movil.jpg" alt="">
-            <h5>Optimized for oll devices</h5>
-            <span>STRICT has been designed to be fully responsive on all devices</span>
-        </div>
-        
-        <div class="caja-servicios">
-            <img src="/Imagenes/icon-enviar.jpg" alt="">
-            <h5>Clean & minimal design</h5>
-            <span>This multipurpose theme is especially created to be
-                used for different proyects
-            </span>
-        </div>
-           
-        <div class="caja-servicios">
-            <img src="/Imagenes/icon-voz.jpg" alt="">
-            <h5>For awesome icon</h5>
-            <span>This multipurpose theme is especially created to be
-                used for different proyects</span>
+
+        <div class="contenedor">
+
+            <div class="caja-servicios">
+                <img src="/Imagenes/icon-movil.jpg" alt="">
+                <h5>Optimized for oll devices</h5>
+                <span>STRICT has been designed to be fully responsive on all devices</span>
+            </div>
+    
+            <div class="caja-servicios">
+                <img src="/Imagenes/icon-enviar.jpg" alt="">
+                <h5>Clean & minimal design</h5>
+                <span>This multipurpose theme is especially created to be
+                    used for different proyects
+                </span>
+            </div>
+    
+            <div class="caja-servicios">
+    
+                <img src="/Imagenes/icon-voz.jpg" alt="">
+                <h5>For awesome icon</h5>
+    
+                <span>This multipurpose theme is especially created to be
+                    used for different proyects
+                </span>
+    
+            </div>
 
         </div>
 
-       
     </section>
 
     <section id="showcase">
 
-        <div class="enabezado">
+        <div class="encabezado">
             <h2>Showcase your work like a pro</h2>
             <span>Contact me if you like a pro</span>
         </div>
@@ -89,23 +145,23 @@
             <div class="cajagaleria">
                 <img src="/Imagenes/show-1.jpg" alt="">
             </div>
-            
+
             <div class="cajagaleria">
                 <img src="/Imagenes/show-2.jpg" alt="">
             </div>
-            
+
             <div class="cajagaleria">
                 <img src="/Imagenes/show-3.jpg" alt="">
             </div>
-            
+
             <div class="cajagaleria">
                 <img src="/Imagenes/show-4.jpg" alt="">
             </div>
-            
+
             <div class="cajagaleria">
                 <img src="/Imagenes/show-5.jpg" alt="">
             </div>
-            
+
             <div class="cajagaleria">
                 <img src="/Imagenes/show-6.jpg" alt="">
             </div>
@@ -114,29 +170,28 @@
 
     </section>
 
-    <section id="stay">
+    <section id="stay" style="background: url(/Imagenes/bg-stay.jpg);">
+
         <div class="encabezado">
             <h2>Stay with us</h2>
             <span>We ensure qailty & support</span>
         </div>
 
         <form action="" id="contacto">
-        
+
             <input type="text" placeholder="Full name">
             <input type="email" placeholder="Email address">
             <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            
+
             <div class="check">
                 <input id="subs" type="checkbox">
                 <label for="subs">Subscribe Newsleter</label>
             </div>
 
-
             <div class="btn">
                 <button type="submit">Send</button>
             </div>
 
-           
         </form>
 
     </section>
@@ -148,11 +203,11 @@
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="/Imagenes/icon-facebook.jpg" alt="Icon-facebbok">
             </a>
-            
+
             <a href="https://twitter.com/i/flow/lite/verify_password" target="_blank">
                 <img src="/Imagenes/icon-twitter.jpg" alt="incon-twiter">
             </a>
-            
+
             <a href="https://www.google.com/" target="_blank">
                 <img src="/Imagenes/icon-google-plus.jpg" alt="icon-google">
             </a>
@@ -162,11 +217,10 @@
             </a>
 
         </div>
-        
+
     </footer>
-        
-    
+
+
 </body>
-    
+
 </html>
-    
