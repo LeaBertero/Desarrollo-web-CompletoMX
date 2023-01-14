@@ -48,7 +48,7 @@
         }
 
         .bg-1 {
-            background-color: #f3f9f9;
+            background-color: #a7a4a417;
         }
 
         .contenedor {
@@ -79,6 +79,29 @@
         .caja-servicio h5{
             font-size: 20px;
             margin-bottom: 15px;
+        }
+
+        .pd-90{
+            padding: 50px 0;
+        }
+
+        .fs-40{
+            font-size: 40px;
+        }
+
+        .fila{
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .caja-galeria{
+            width: 33,33333333333333%;
+            padding: 0 10px;
+        }
+
+        .caja-galeria img{
+            width: 100%;
+            display: block;
         }
 
     </style>
@@ -114,7 +137,7 @@
     <section class="bg-1" id="simple" style="padding: 100px 0; text-align: center; ">
 
         <div class="contenedor">
-            <h3 class="color-1" style="font-size: 40px; color: #2d3950;">Simple & pure design</h3>
+            <h3 class="color-1 fs-40">Simple & pure design</h3>
             <p class="color-2">Designers everywhere gush with admiration upon
                 seeting a web desing and exclaim "it's beautifull it's so clean".
                 there are countless number of web design round-ups dedicated
@@ -126,7 +149,7 @@
 
     </section>
 
-    <section id="servicios" style="padding: 90px 0;">
+    <section id="servicios" class="pd-90">
         <!-- Caja de imagenes -->
 
         <div class="contenedor" style="display: flex;">
@@ -160,37 +183,49 @@
 
     </section>
 
-    <section id="showcase">
+    <section id="showcase" class="bg-1 pd.90">
 
-        <div class="encabezado">
-            <h2>Showcase your work like a pro</h2>
-            <span>Contact me if you like a pro</span>
-        </div>
+        <div class="contenedor">
 
-        <div class="galeria">
-
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-1.jpg" alt="">
+            <div class="encabezado" style="text-align: center; margin-bottom: 50px;">
+                <h2 class="color-1" fs-40>Showcase your work like a pro</h2>
+                <span class="color-2">Contact me if you like a pro</span>
             </div>
+    
+            <div class="galeria">
+    
+                <div class="fila">
 
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-2.jpg" alt="">
-            </div>
-
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-3.jpg" alt="">
-            </div>
-
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-4.jpg" alt="">
-            </div>
-
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-5.jpg" alt="">
-            </div>
-
-            <div class="cajagaleria">
-                <img src="/Imagenes/show-6.jpg" alt="">
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-1.jpg" alt="">
+                    </div>
+        
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-2.jpg" alt="">
+                    </div>
+        
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-3.jpg" alt="">
+                    </div>
+                
+                </div>
+    
+                <div class="fila">
+                    
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-4.jpg" alt="">
+                    </div>
+        
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-5.jpg" alt="">
+                    </div>
+        
+                    <div class="caja-galeria">
+                        <img src="/Imagenes/show-6.jpg" alt="">
+                    </div>
+                
+                </div>
+    
             </div>
 
         </div>
