@@ -104,6 +104,20 @@
             display: block;
         }
 
+        .form-input{
+            width: 100%;
+            padding: 18px;
+            background-color: transparent;
+            border: 1px solid color rgba(243, 240, 240, 0.568);
+            margin-bottom: 15px;
+            border-radius: 5px;
+            color: #999;
+            
+
+        }
+
+        
+
     </style>
 
 </head>
@@ -232,29 +246,33 @@
 
     </section>
 
-    <section id="stay" style="background: url(/Imagenes/bg-stay.jpg);">
+    <section id="stay" style="background: url(/Imagenes/bg-stay.jpg);" class="pd-90">
 
-        <div class="encabezado">
-            <h2>Stay with us</h2>
-            <span>We ensure qailty & support</span>
+        <div class="contenedor">
+
+            <div class="encabezado" style="text-align: center; margin-bottom: 30px;">
+                <h2 class="fs-40" style="color: white;">Stay with us</h2>
+                <span style="color: rgba(240, 236, 236, 0.562);">We ensure qailty & support</span>
+            </div>
+    
+            <form action="" id="contacto">
+    
+                <input class="form-input" type="text" placeholder="Full name">
+                <input class="form-input" type="email" placeholder="Email address">
+                <textarea class="form-input" name="Mensaje" id="" cols="30" rows="10" placeholder="Message"></textarea>
+    
+                <div class="check">
+                    <input id="subs" type="checkbox">
+                    <label for="subs">Subscribe Newsleter</label>
+                </div>
+    
+                <div class="btn">
+                    <button type="submit">Send</button>
+                </div>
+    
+            </form>
+
         </div>
-
-        <form action="" id="contacto">
-
-            <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Email address">
-            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Message"></textarea>
-
-            <div class="check">
-                <input id="subs" type="checkbox">
-                <label for="subs">Subscribe Newsleter</label>
-            </div>
-
-            <div class="btn">
-                <button type="submit">Send</button>
-            </div>
-
-        </form>
 
     </section>
 
