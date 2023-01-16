@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera pagina web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
 
     <!-- ESTILOS -->
     <style>
@@ -42,7 +43,7 @@
         h3,
         h4,
         h5,
-        h6 {
+        h6,label {
             margin: 0;
             padding: 0;
         }
@@ -116,6 +117,23 @@
 
         }
 
+        /* .check{
+            width: 70%;
+        }
+
+        .btn{
+            width: 30%;
+        } */
+
+        .btn button{
+            background-color: transparent; 
+            border: 1px solid #15a4fa;
+            padding: 15px 35px; 
+            border-radius: 5px; 
+            color: white;
+            font-size: 30px;
+            box-shadow: 2px 2px 2px whitesmoke;
+        }
         
 
     </style>
@@ -141,9 +159,10 @@
                 STRICT is a responsive theme with a clean minimal look
             </p>
 
-            <button type="submit" style="background-color: transparent; border: 1px solid #15a4fa;
-            padding: 15px 35px; border-radius: 5px; color: white;
-            font-size: 30px;">Call to accion</button>
+            <div class="btn">
+                <button>Call to accion</button>
+                
+            </div>
 
         </div>
     </header>
@@ -255,19 +274,23 @@
                 <span style="color: rgba(240, 236, 236, 0.562);">We ensure qailty & support</span>
             </div>
     
-            <form action="" id="contacto">
+            <form action="" id="contacto" style="max-width: 600px; margin: 0 auto;">
     
                 <input class="form-input" type="text" placeholder="Full name">
                 <input class="form-input" type="email" placeholder="Email address">
                 <textarea class="form-input" name="Mensaje" id="" cols="30" rows="10" placeholder="Message"></textarea>
     
-                <div class="check">
-                    <input id="subs" type="checkbox">
-                    <label for="subs">Subscribe Newsleter</label>
-                </div>
+                <div style="display: flex;">
+
+                    <div class="check" style="width: 70%;">
+                        <input id="subs" type="checkbox">
+                        <label style="color: white;" for="subs">Subscribe Newsleter</label>
+                    </div>
     
-                <div class="btn">
-                    <button type="submit">Send</button>
+                    <div class="btn" style="width: 30%;">
+                        <button type="submit">Send</button>
+                    </div>
+
                 </div>
     
             </form>
@@ -276,25 +299,30 @@
 
     </section>
 
-    <footer>
-        <span>Copyright 2023 @LeaBertero</span>
-        <div class="redes-sociales">
+    <footer class="bg-1" style="padding: 30px 0;">
+       
+        <div class="contenedor" style="display: flex; text-align: right;">
 
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="/Imagenes/icon-facebook.jpg" alt="Icon-facebbok">
-            </a>
-
-            <a href="https://twitter.com/i/flow/lite/verify_password" target="_blank">
-                <img src="/Imagenes/icon-twitter.jpg" alt="incon-twiter">
-            </a>
-
-            <a href="https://www.google.com/" target="_blank">
-                <img src="/Imagenes/icon-google-plus.jpg" alt="icon-google">
-            </a>
-
-            <a href="https://www.linkedin.com/feed/" target="_blank">
-                <img src="/Imagenes/icon-linked-in.jpg" alt="icon-linkedin">
-            </a>
+            <span style="width: 60%;">Copyright 2023 @LeaBertero</span>
+            <div class="redes-sociales" style="width: 40%; align-items: center;">
+    
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="/Imagenes/icon-facebook.jpg" alt="Icon-facebbok">
+                </a>
+    
+                <a href="https://twitter.com/i/flow/lite/verify_password" target="_blank">
+                    <img src="/Imagenes/icon-twitter.jpg" alt="incon-twiter">
+                </a>
+    
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="/Imagenes/icon-google-plus.jpg" alt="icon-google">
+                </a>
+    
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <img src="/Imagenes/icon-linked-in.jpg" alt="icon-linkedin">
+                </a>
+    
+            </div>
 
         </div>
 
