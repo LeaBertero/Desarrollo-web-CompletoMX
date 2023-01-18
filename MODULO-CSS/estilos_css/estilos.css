@@ -1,0 +1,42 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: black;
+}
+
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+
+h1{
+    /* color: whitesmoke; */
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid cyan;
+    margin: 20px;
+}
+
+h3{
+    background-color: green;
+    /* color: wheat; */
+    pad: 20px;
+    font-family:'Times New Roman';
+
+}
+
+p{
+    padding: 20px;
+    /* color: wheat; */
+}
+
+*{
+    text-decoration: none;
+}
