@@ -13,6 +13,21 @@
     margin: 20px;
 }
 
-.otro-contenido > p {
-    
+.contenido{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: crimson;
+    text-shadow: 2px 2px 2px lightblue;
+    text-align: center;
+    margin: 50px;
+}
+
+.contenido > p {
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bolder;
+    color: steelblue;
+    padding: 10px;
+    margin: 15px;
+    /* text-align: center; */
 }
