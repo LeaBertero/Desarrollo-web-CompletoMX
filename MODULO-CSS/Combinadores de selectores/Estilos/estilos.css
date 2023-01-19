@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tituloCombinadores{
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid blue;
+    background-color: crimson;
+    padding: 30px;
+    margin: 20px;
+}
+
+.otro-contenido > p {
+    
+}
