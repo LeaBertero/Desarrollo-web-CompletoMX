@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacion{    
+    height: 50px;
+    background-color: greenyellow;
+}
+
+#slider{
+    height: 150px;
+    background-color: aqua;
+}
+
+#servicios{
+    height: 120px;
+    background-color: palevioletred;
+}
+
+#pie{
+    height: 50px;
+    background-color: purple;
+}
+
+.servicios{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+
