@@ -1,8 +1,11 @@
 /* Estilos propiedad Firs-type */
+/* >   <--(selector de hijos) */
+/* ("*") <-- (selector universal) */
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: cursive;
 }
 
 #Firs-type-title{
@@ -15,4 +18,43 @@
     text-align: center;
     padding: 20px;
     margin: 30px;
+}
+
+article > *{
+    padding: 6px;
+    margin: 2px;
+    border: 2px solid green;
+}
+
+#numeros{
+    list-style-type: none;
+}
+
+article :first-child {
+    background-color: greenyellow;
+
+}
+
+article :last-child {
+    background-color:brown;
+    
+}
+
+article :nth-child(4) {
+    background-color: green;
+    
+}
+
+article :nth-child(odd) { /*Metodo ODD - selecciona las filas impares dentro de un listado*/
+    background-color: pink;
+    
+}
+
+article :nth-child(even) { /*El metodo even selecciona los pares*/
+    background-color: red;
+    
+}
+
+article p :only-of-type {
+    background-color: coral;
 }
