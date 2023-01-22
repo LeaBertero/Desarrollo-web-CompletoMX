@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+#Title-PseudoClase{
+    font-size: 40px;
+    color: aqua;
+    background-color: blue;
+    text-shadow: 5px 5px 5px greenyellow;
+    text-align: center;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 30px;
+}
