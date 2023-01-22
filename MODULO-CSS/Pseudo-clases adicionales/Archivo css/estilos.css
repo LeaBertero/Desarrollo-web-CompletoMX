@@ -14,3 +14,42 @@
     margin: 30px;
     padding: 30px;
 }
+
+section{
+    height: 200px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    background-color: deeppink;
+}
+
+#section1{
+    background-color: aqua;
+}
+
+#section2{
+    background-color: coral;
+}
+
+#section3{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+
