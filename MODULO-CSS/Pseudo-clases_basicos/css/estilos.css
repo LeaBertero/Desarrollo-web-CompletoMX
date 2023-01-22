@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#selectores{
+    border: 5px solid blue;
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+p span:first-child {
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+p span:last-child {
+    background-color: brown;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+p span:only-child {
+    background-color: chartreuse;
+    font-size: 25px;
+    color: black;
+}
+
+
+/* enlace */
+#enlace:lang(en){
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-size: 20px;
+    /* color: wheat; */
+    padding: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    
+}
+
+#enlace:link{
+    color: chartreuse;
+}
+
+#enlace:visited{
+    color: orchid;
+}
+
+#enlace:active{
+    background-color: crimson;
+}
+
+#enlace:hover{
+    background-color: yellow;
+}
+
+input:focus, textarea, button{
+    background-color: greenyellow;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+

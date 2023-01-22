@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+/* Titulo de ejemplo */
+
+#titulo_Pseudo-clase{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: wheat;
+    background-color:green;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+caption {
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 15px;
+    margin: 30px auto;
+}
+
+thead th {
+    border-bottom: 1px solid #8d1f6f;
+}
+
+th, td {
+    padding: 10px 15px;
+    border-right: 1px solid #8d1f6f;
+    border-bottom: 1px solid #8d1f6f;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:nth-last-child(4n+1) {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+colgroup col:nth-child(2n+2) {
+    background-color: firebrick;
+}
+
+tbody tr:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+
+
+
+
+
+
