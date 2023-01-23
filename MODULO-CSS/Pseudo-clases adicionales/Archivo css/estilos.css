@@ -38,19 +38,38 @@ nav ul li a{
 
 #section1{
     background-color: aqua;
+    
 }
 
 #section2{
     background-color: coral;
+    
 }
 
 #section3{
     background-color: antiquewhite;
+    
 }
 
 h1{
     text-align: center;
     background-color: blueviolet;
     margin-bottom: 10px;
+}
+
+#secciones{
+    padding: 20px;
+    color: wheat;
+}
+
+#texto{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#enlace{
+    box-shadow: 5px 5px 5px palevioletred;
+    padding: 10px;
 }
 
