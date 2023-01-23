@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Pseudo-selec{
+    background-color: red;
+    color: pink;
+    text-shadow: 5px 5px 5px whitesmoke;
+    font-size: 30px;
+    margin: 30px;
+    border: 30px solid green;
+    box-shadow: 5px 5px 5px lightblue;
+    font-family: cursive;
+    text-align: center;
+    padding: 30px;
+}

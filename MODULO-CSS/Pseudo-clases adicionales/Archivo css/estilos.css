@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: cursive;
 }
 
 #Title-PseudoClase{
@@ -59,7 +58,10 @@ h1{
 
 #secciones{
     padding: 20px;
-    color: wheat;
+    color: black;
+    text-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px red;
+    border-radius: 12px;
 }
 
 #texto{
@@ -71,5 +73,44 @@ h1{
 #enlace{
     box-shadow: 5px 5px 5px palevioletred;
     padding: 10px;
+}
+
+/* selector universal (:root{}) - (es lo  mismo que *{selector universal}) */
+:root{
+    background-color: teal;
+    font-family: cursive;
+}
+
+:empty{
+    width: 60px;
+    height: 60px;
+    border-radius:60%;
+    background-color: blue;
+}
+
+#titulo-uno{
+    background-color: blue;
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px cyan;
+    border: 5px solid whitesmoke;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+#titulo-dos{
+    background-color: blue;
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px cyan;
+    border: 5px solid whitesmoke;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+:not(p){
+    /* color: red; */
+    background-color: pink;
 }
 
