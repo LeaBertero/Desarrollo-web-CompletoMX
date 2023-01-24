@@ -15,3 +15,40 @@
     text-align: center;
     padding: 30px;
 }
+
+#formulario{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: turquoise;
+}
+
+#input{
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: turquoise;
+}
+
+.form-group{
+    width: 20%;
+}
+
+input:enabled{
+    background-color: green;
+    color: red;
+}
+
+input:disabled{
+    background-color: red !important;
+    color: white;
+}
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}

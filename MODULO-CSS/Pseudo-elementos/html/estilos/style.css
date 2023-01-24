@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Pseudo-title{
+    color: whitesmoke;
+    background-color: blue;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px lightblue;
+    text-shadow: 5px 5px 5px lightskyblue;
+}
+
+p:first-line {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px lightskyblue;
+    font-family: cursive;
+}
+
+p:first-letter {
+    font-size: 70px;
+    color: green;
+    background-color: fuchsia;
+    padding: 4px;
+    text-transform: uppercase;
+}
