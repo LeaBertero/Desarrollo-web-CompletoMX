@@ -1,0 +1,53 @@
+*{
+    margin: 20px;
+    padding: 0px;
+}
+
+#Titulo{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid blue;
+    color: azure;
+    text-shadow: 2px 2px 2px darkturquoise;
+    padding: 30px;
+    margin: 30px;
+    background-color: blue;
+}
+
+#guion{
+    font-size: 30px;
+    text-align: center;
+    background-color: darkblue;
+    color: azure;
+    margin-inline: 60px;
+    padding: 20px;
+}
+
+/* Después de */
+h1::before{
+    content: "Ésta es la etiqueta ";
+    font-size: 40px;
+    padding: 30px;
+    color: firebrick;
+    font-family: cursive;    
+}
+
+/* Antes de */
+h1::after{
+    content: ".";
+    font-size: 100px;
+
+}
+
+::selection{
+    background-color: deepskyblue;
+    /* color: azure; */
+    color: orangered;
+    text-shadow: 2px 2px black;
+}
+
+.parrafo{
+    font-size: 30px;
+    font-weight: bolder;
+}

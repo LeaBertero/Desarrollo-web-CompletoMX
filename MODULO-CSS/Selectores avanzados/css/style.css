@@ -66,4 +66,24 @@ h3::selection{
     padding: 20px;
     border: 2px solid black;
     overflow: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightskyblue;
+    color:blue;
+}
+
+.texto::-webkit-scrollbar {
+    width: 10px;
+}
+
+.texto::-webkit-scrollbar-track:hover {
+    background-color: gray;
+}
+
+.texto::-webkit-scrollbar-thumb:active {
+    background-color: black;
+}
+
+::-webkit-scrollbar-button{
+    background-color: red;
 }
