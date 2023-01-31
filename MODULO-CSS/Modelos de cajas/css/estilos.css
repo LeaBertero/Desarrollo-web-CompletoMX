@@ -1,0 +1,21 @@
+/* selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+#titulo{
+    font-size: 40px;
+    font-family: 'Margarine', cursive;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid lightskyblue;
+    padding: 20px;
+    background-color: orangered;
+    text-shadow: 2px 2px blue;
+    color: whitesmoke;
+}
