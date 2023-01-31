@@ -24,10 +24,11 @@
     word-spacing: 30px; /*Da espacios entre palabras en los textos seleccionados*/
     letter-spacing: .7em; /*Espacios entre letras*/
     text-decoration:underline;
+    text-decoration-color:green ;
 }
 
 .segundo-titulo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
     border: 3px solid black;
