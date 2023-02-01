@@ -44,3 +44,48 @@ p{
     /* margin-top: 15px;
     margin-right: 15px; */
 }
+
+#segundo-titulo {
+    border: 5px dashed blue;
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 2px 2px 2px green;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.contenedor{
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border:  3px solid #8d1e84;
+    overflow: hidden;
+    display: table;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.cajita{
+    height: 100px;
+    width: 50%;
+    background-color: aquamarine;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numero{
+    background-color: brown;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
