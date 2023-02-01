@@ -19,3 +19,28 @@
     text-shadow: 2px 2px blue;
     color: whitesmoke;
 }
+
+.caja{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    /* border: 10px solid black; */
+    border-top: 10px solid black;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow;
+    border-right: 10px solid orangered;
+    padding: 10px 30px 10px 20px;
+    border-bottom-color: fuchsia;
+    border-top-style: dashed;
+    border-bottom-style: dotted ;
+    
+}
+
+p{
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 10px dashed rgba(40, 105, 21, 0.61);
+    /* padding: 10px; */
+    /* margin-top: 15px;
+    margin-right: 15px; */
+}
