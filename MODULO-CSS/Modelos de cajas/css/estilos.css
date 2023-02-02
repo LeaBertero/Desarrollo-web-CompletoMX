@@ -77,6 +77,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* agregado de acá para abajo */
+    /* border: 2px dashed black; */
 }
 
 #numero{
@@ -88,4 +90,46 @@ p{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+/* titulo modelo de cajas - segunda parte */
+
+#tit-Modelos{
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 50px;
+    border: 2px solid blue;
+    color: orangered;
+    background-color: aqua;
+    text-shadow: 5px 5px 5px black;
+    max-width: 450px;
+    margin-left: 500px;
+}
+
+nav{
+    margin: 40px;
+    border: 2px dashed red;
+    padding: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 5px;
+    border: 2px dashed;
+}
+
+span{
+    display: block;
+    width: 70px;
+    height: 20px;
+    background-color: brown;
+    color: white;
+    padding: 3px;
+
+    
+}
+
+#lista{
+    font-size: 30px;
 }
