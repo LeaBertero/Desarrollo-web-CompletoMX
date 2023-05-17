@@ -7,8 +7,8 @@ sumar(10,20); //argumentos o valores reales
 sumar(10,30); //argumentos o valores reales
 sumar(10,50); //argumentos o valores reales
 
-const sumar2 = function(){
-    console.log(3 + 3);
+const sumar2 = function(n1, n2){
+    console.log(n1 + n2);
 }
 
 sumar2();
