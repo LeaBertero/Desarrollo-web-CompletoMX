@@ -9,6 +9,10 @@ console.table(meses);
 
 console.log(numeros[2]);
 
+meses.forEach(function(mes){
+    console.log(mes);
+});
+
 
 
 
