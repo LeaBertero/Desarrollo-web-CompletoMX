@@ -1,4 +1,4 @@
-
+//array metods
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
 const carrito = [
@@ -8,9 +8,8 @@ const carrito = [
     {nombre: 'Audifonos', precio: 200},
     {nombre: 'Teclado', precio: 50},
     {nombre: 'Celular', precio: 500},
-    {nombre: 'Monitor 20 pulgadas', precio: 500},
-    {nombre: 'Monitor 20 pulgadas', precio: 500},
-    {nombre: 'Monitor 20 pulgadas', precio: 500},
+    {nombre: 'Bocinas', precio: 300},
+    {nombre: 'Laptop', precio: 800},
 ];
 
 meses.forEach(function(mes){
@@ -19,6 +18,22 @@ meses.forEach(function(mes){
     }
 });
 
-const resultado = meses.includes('Marzo');
-console.log(resultado);
+
+//Includes
+const resultado = meses.includes('Diciembre');
+// const resultado2 = carrito.includes('Celular');
+resultado = carrito.some(function(producto) {
+    return producto.nombre === 'Celular'  
+})
+
+// resultado = carrito.reduce(function(total, producto){
+//     return total + producto.precio
+// },0)
+
+resultado = carrito.reduce((total,producto) => total + producto.precio,0);
+
+//some = ideal para arreglos de objetos
+console.log(resultado); 
+
+
         
