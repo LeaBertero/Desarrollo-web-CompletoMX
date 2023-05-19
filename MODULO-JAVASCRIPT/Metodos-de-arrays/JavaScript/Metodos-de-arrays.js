@@ -19,6 +19,7 @@ meses.forEach(function(mes){
 });
 
 
+//some = ideal para arreglos de objetos
 //Includes
 const resultado = meses.includes('Diciembre');
 // const resultado2 = carrito.includes('Celular');
@@ -32,7 +33,11 @@ resultado = carrito.some(function(producto) {
 
 resultado = carrito.reduce((total,producto) => total + producto.precio,0);
 
-//some = ideal para arreglos de objetos
+
+resultado = carrito.filter(function(producto){
+    producto.precio > 400;
+});
+
 console.log(resultado); 
 
 
