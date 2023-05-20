@@ -21,7 +21,10 @@ while(incremento2 <= 100){
     if(incremento2 % 2 === 0){
         console.log(`El numero ${incremento2} es par`);
         
-    } 
+    } else{
+        console.log(`El numero ${incremento2} es impar`);
+
+    }
 
 
 
