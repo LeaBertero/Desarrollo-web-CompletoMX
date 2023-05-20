@@ -13,8 +13,8 @@ const carrito = [
 
 ];
 
-//ForEach
+//ForEach (con funcion flecha =>)
 
-carrito.forEach(function(producto){
+carrito.forEach (producto =>{
     console.log(producto);
 });
