@@ -12,20 +12,16 @@
 //objeto constructor
 function producto(nombre, precio){
     this.nombre = nombre;
-    // this.precio = precio;
+    this.precio = precio;
 }
 
 const producto2 = new producto("Monitor curvo 50 pulgadas", 800);
 console.log(producto2);
 
 
-//crear dos productos con diferentes valores como ejercicio en js
+// console.log(producto2);
 
-function perro(raza, color){
-    
-}
 
-const perro =
 
-console.log(producto2);
+
 
