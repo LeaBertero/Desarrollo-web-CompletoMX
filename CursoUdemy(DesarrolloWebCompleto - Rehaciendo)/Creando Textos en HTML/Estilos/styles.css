@@ -18,6 +18,13 @@ body{
     font-size: 16px;
 }
 
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+
+
 .titulo{
     text-align: center;
     font-size: 3.8rem; 
@@ -25,4 +32,22 @@ body{
 
 .titulo span{
     font-size: 2rem;
+}
+
+.nav-bg{
+    background: var(--secundario);
+}
+
+
+.navegacion-Principal{
+    padding: 1rem;
+}
+
+.navegacion-Principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+p{
+    background: var(--primario);
 }
