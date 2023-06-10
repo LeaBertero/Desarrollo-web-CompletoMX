@@ -1,5 +1,17 @@
+/* definicion de colores personalizados */
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #00a797;
+    --gris: #757575;
+
+    --fuente-principal: 3,8rem;
+}
+
 html{
     font-size: 62.5%;
+    font-family: 'Krub', sans-serif;
 }
 
 body{
@@ -8,7 +20,7 @@ body{
 
 .titulo{
     text-align: center;
-    font-size: 3.8rem;  
+    font-size: 3.8rem; 
 }
 
 .titulo span{
