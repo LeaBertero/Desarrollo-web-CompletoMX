@@ -13,18 +13,20 @@ html{
 }
 
 :root{
+    /* colores */
     --primario:#9c27b0;
     --primarioOscuro:#89119d;
     --secundario:#ffce00;
     --secundarioOscuro: rgb(233,287,2);
     --blanco:#fff;
-    --negro:#000;background-color: var(--primario);
+    --negro:#000;
 
-    
+    /* fuentes */
     --fuentePrincipal: 'Staatliches', cursive;
 }
 
 /* Globales */
 body{
-
+    /* color de fondo del proyecto */
+    background-color: var(--primario);
 }
