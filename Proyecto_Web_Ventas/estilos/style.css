@@ -3,6 +3,13 @@
 
 html{
     font-family: 'Krub', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* snipet con selectores unoversales(seleccioan todos los elementos) */
+*,*:before,*:after{
+    box-sizing: inherit;
 }
 
 :root{
@@ -11,8 +18,13 @@ html{
     --secundario:#ffce00;
     --secundarioOscuro: rgb(233,287,2);
     --blanco:#fff;
-    --negro:#000;
+    --negro:#000;background-color: var(--primario);
 
     
     --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* Globales */
+body{
+
 }
