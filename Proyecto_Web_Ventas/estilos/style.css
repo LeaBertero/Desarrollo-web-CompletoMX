@@ -1,0 +1,18 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+
+html{
+    font-family: 'Krub', sans-serif;
+}
+
+:root{
+    --primario:#9c27b0;
+    --primarioOscuro:#89119d;
+    --secundario:#ffce00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco:#fff;
+    --negro:#000;
+
+    
+    --fuentePrincipal: 'Staatliches', cursive;
+}
