@@ -159,9 +159,23 @@ h3{
     color: var(--secundario);
 }
 
+/* inocio grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-left: 100px; */
+}
+
+@media (min-width: 768px ){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
 /*Inicio Producto */
 .producto{
-
+    background-color: var(--primarioOscuro);
 }
 
 .producto__imagen{
