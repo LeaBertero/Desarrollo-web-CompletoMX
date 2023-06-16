@@ -177,22 +177,29 @@ h3{
 /*Inicio Producto */
 .producto{
     background-color: var(--primarioOscuro);
+    padding: 1rem;
 }
 
 .producto__imagen{
-
-}
-
-.producto__informacion{
-
+    width: 100%;
+    
 }
 
 .producto__nombre{
-
+    font-size: 4rem;
 }
 
 .producto__precio{
+    font-size: 2.8rem;
+    color: var(--secundario);
+}
 
+.producto__nombre,
+.producto__precio{
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2;
 }
 
 /* Fin producto */
