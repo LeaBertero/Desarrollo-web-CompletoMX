@@ -263,6 +263,15 @@ h3{
 
 /* Fin Nosotros */
 
+/* Inicio Bloques */
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Fin Bloques */
+
 
 
 
