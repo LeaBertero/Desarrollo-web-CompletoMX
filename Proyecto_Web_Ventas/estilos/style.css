@@ -237,15 +237,28 @@ h3{
 
 /* Inicio Nosotros */
 .nosotros{
-
+    display: grid;
+    grid-template-rows: repeat(2, auto);
 }
 
-.nosotros__contenido{
 
+@media (min-width: 768px){
+    .nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
+    
 
 .nosotros__imagen{
-    
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .nosotros__imagen{
+        grid-template-columns:  2 / 3;
+    }
 }
 
 /* Fin Nosotros */
