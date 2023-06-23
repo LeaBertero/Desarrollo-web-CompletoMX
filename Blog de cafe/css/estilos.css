@@ -69,4 +69,17 @@ img{
     text-align: center;
 }
 
+/* header */
+.header{
+    background-image: url(../blogdecafe_inicio/img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
+.header__texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
