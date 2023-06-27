@@ -240,5 +240,14 @@ img{
     border: none;
 }
 
+/* contacto */
+
+.contacto-bg{
+    background-image: url(../blogdecafe_inicio/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
