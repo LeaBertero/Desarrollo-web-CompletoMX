@@ -14,6 +14,6 @@ switch (metodoPago) {
 
     default:
         console.log('Aun no has pagado');
-        break;
-
+    break;
 }
+
