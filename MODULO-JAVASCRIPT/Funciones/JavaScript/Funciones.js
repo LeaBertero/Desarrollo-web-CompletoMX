@@ -2,7 +2,7 @@
 
 //Declaracion de funcion
 function sumar() {
-    console.log(10+10);
+    console.log(10 + 10);
 }
 
 //llamar la funcion
