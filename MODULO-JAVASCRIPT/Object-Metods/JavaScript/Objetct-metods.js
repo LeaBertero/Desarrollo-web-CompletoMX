@@ -1,3 +1,4 @@
+"Use stric" //correr JavaScript en modo estricto
 //Object Metods
 
 const producto = {
