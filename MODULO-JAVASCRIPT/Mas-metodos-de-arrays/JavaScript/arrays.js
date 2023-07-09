@@ -1,4 +1,4 @@
-alert('Bienvendo');
+// alert('Bienvendo');git status
 
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
